@@ -1,0 +1,43 @@
+html,body{
+    width: 100%;
+}
+
+.nasa{
+    color: lightgray;
+    font-size: 5em;
+}
+
+.cresce{
+    font-size: 4em;
+}
+.titulo{
+    font-size: 1.5em;
+}
+.formulario{
+    font-size: 2.8em;
+}
+
+.input-group-text{
+    font-size: 2rem;
+    border-radius: 15px;
+}
+
+.form-control{
+    height: calc(4rem + 2px);
+    font-size: 3rem;
+    border-radius: 15px;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: -2.25rem;
+    min-width: 0.5em;
+    min-height: 0.5em;
+}
+.button{
+    font-size:2rem;
+}
+.nav-link{
+    font-size: 3em;
+}
