@@ -13,8 +13,7 @@ class Modulo extends Banco
         $nascimento = $_POST["Nascimento"];
         $cidade = $_POST["Cidade"];      
         // return date("d/m/Y", strtotime($nascimento));
-        $sql = "insert into Users(username,senha,email,cpf,nascimento,cidade) 
-                values ('{$userName}','{$senha}','{$email}', '{$CPF}','{$nascimento}','{$cidade}');";
+        $sql = "insert into Users(username,senha,email,cpf,nascimento,cidade) values ('$userName','$senha','$email','$CPF','$nascimento','$cidade');";
         $result = pg_query($this->db, $sql);
         if($result){
             echo "Insert sucesso";
